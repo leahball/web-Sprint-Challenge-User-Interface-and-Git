@@ -38,8 +38,8 @@ Semantic HTML uses mark-up that tells the developer what it is. It uses labels l
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
--Display: Inline is within the line of text e.x. <em> it also can NOT have height, width or margin without display: inline-block
--Display: Block is its own block and can be assigned properties like height + width, e.x. <p> tags
+-Display: Inline is within the line of text, it also can NOT have height, width or margin without display: inline-block e.x. em tags <br>
+-Display: Block is its own block and can be assigned properties like height + width, e.x. paragragh tags
 
 3. What are the 4 areas of the box model?
 
