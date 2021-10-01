@@ -64,9 +64,12 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
+    font-size: 1.6rem;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+h2 {
+    font-size: 2rem;
 }
 
 p {
@@ -127,26 +130,60 @@ header nav {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+.about {
+    margin: 0 0 3% 3%;
+    border-bottom: 1px dashed black;
+}
+.aboutUs {
+    margin: 2%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 0;
+}
+.gallery {
+    /* width: 95%; */
+    margin: 2%;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+.gallery h2 {
+    margin-top: 3%;
+}
+button {
+    margin: 4% 0 1%;
+    padding: 3% 6%;
+    font-size: 1.6rem;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+button:hover {
+    background-color: grey;
+    transition: 2s;
+}
+.work {
+    width: 90%;
+    margin: 0 0 3% 3%;
+    /* border-bottom: 1px dashed black; */
+}
 .text-container {
     margin-top: 2%;
 }
-
 .middle-content {
     margin-bottom: 10px;
     border-bottom: 1px dashed black;
 }
-
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -186,26 +223,21 @@ header nav {
 .ten {
     background-color: dodgerblue;
 }
-
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
-
 .bottom-content .text-container {
     padding-right: 4%;
 }
-
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
 footer {
     width: 100%;
     background: black;
 }
-
 footer nav {
     width: 60%;
     display: flex;
@@ -214,7 +246,6 @@ footer nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
 footer nav a {
     color: white;
     text-decoration: none;
